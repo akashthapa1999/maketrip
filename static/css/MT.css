@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ 
+ 
+ 
+ 
+ 
+                                     /*HEADER */
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(77,78,84,1);
+    border-bottom: 3px solid steelblue;
+    position: absolute;
+
+}
+
+.head{
+    width: 70%;
+    height: 80%;
+    float: right;
+    margin-right: 7%;
+    
+    
+}
+
+.head ul{
+    width: 105%;
+    margin-top: 8px;
+}
+
+.head ul li{
+    display: inline;
+    margin: 55px;
+    
+}
+
+.head ul li:hover{
+    background-color: lightblue;
+  
+    
+}
+
+.head ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+
+.book-btn{
+    width: 8%;
+    height: 35px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.logo{
+    width: 6%;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 6px;
+    text-decoration: underline purple;
+}
+.logo h1{
+    color:purple;
+}
+.logo span{
+    color:red;
+}
+
+
+                                                              /*Home page*/
+
+
+.Home{
+    width: 100%;
+    height: 700px;
+    background-image: url("../static/img/backimg.jpg");   
+
+}
+
+.Home_pic{
+    width: 30%;
+    margin: 1px;
+    margin-left: 150px;
+    padding: 16px;  
+    
+
+}
+
+.Home_pic h1{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 200px;
+
+}
+
+.Home_book{
+    width: 250%;
+    height: 180%;
+    border: transparent;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    margin-top: 180px;
+    
+}
+
+.book_nav{
+    width: 80%;
+    height: 360px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.8);
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+}
+
+.book_nav_btn{
+    width: 100%;
+}
+
+#book_btn{
+    display: inline;
+    margin: 1px;
+    font-size: 30px;
+    background-color: #0460A9;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+}
+
+#book_btn:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#book_btn1{
+    display: inline;
+    margin: 1px;
+    font-size: 30px;
+    background-color: #0460A9;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+}
+
+#book_btn1:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#book_btn2{
+    display: inline;
+    margin: 1px;
+    font-size: 30px;
+    background-color: #0460A9;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+}
+
+#book_btn2:hover{
+    background-color: white;
+    color: black;
+
+}
+.tour_destination{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin: 20px;
+    height: 200px;
+
+}
+#search{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search1{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.tour_details{
+    width: 70%;
+    float: right;
+    margin: 20px;
+    height: 280px;
+    
+
+}
+
+.tour_d1{
+    width: 22%;
+    float: left;
+    margin: 10px;
+    height: 100px;
+}
+
+#checkD{
+    width: 160px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tour_d2{
+    width: 22%;
+    float: left;
+    margin: 10px;
+    height: 100px;   
+}
+
+#checkD1{
+    width: 160px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.tour_d3{
+    width: 22%;
+    float: left;
+    margin: 10px;
+    height: 100px;
+    
+}
+
+#duration{
+    width: 160px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+
+.tour_d4{
+    width: 22%;
+    float: right;
+    margin: 10px;
+    height: 100px; 
+}
+
+#members{
+    width: 160px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.tour_btn{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    height: 100px;
+}
+
+#Tour_access{
+    width: 100%;
+    height: 80%;
+}
+
+#tourbtn{
+   text-align: center;
+   font-size: 30px;
+   background-color: #0460A9;
+   color: white;
+   cursor: pointer;
+}
+
+#tourbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.Service{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.Service1{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+}
+
+.info{
+    width: 25%;
+    height: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.info h3{
+    float: right;
+    font-size: 24px;
+}
+
+.info h5{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-right: 70px;
+    top: -40px;
+    position: relative;
+    font-size: larger;
+    color: darkolivegreen; 
+}
+
+.hotel{
+    width: 25%;
+    height: 50%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.hotel h3{
+    float: right;
+    font-size: 25px;
+}
+
+.hotel h5{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-right: 70px;
+    top: -40px;
+    position: relative;
+    color: darkolivegreen; 
+}
+
+.flight{
+    width: 25%;
+    height: 50%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 130px;
+}
+
+.flight h3{
+    float: right;
+    font-size: 25px;
+}
+
+.flight h5{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-right: 70px;
+    top: -40px;
+    position: relative;
+    font-size: larger;
+    color: darkolivegreen;
+}
+
+                                                              /*Destination page*/
+
+
+.Destination{
+    width: 100%;
+    height: 700px;
+    border: 2px solid red;
+}
+
+.Destination-img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+}
+
+.Destination-content{
+    width: 100%;
+    height: 100%;
+}
+
+
+                                                                  /* Subscribe*/
+
+
+.subscribe{
+    border: 2px solid green;
+    width: 100%;
+    height: 400px;
+    background-image: url("../static/img/subscribe-banner.jpg");
+    font-weight:900;
+}
+
+
+.subscribe1{
+    width: 80%;
+    height: 250px;
+    padding: 0px;
+    margin: 74px;
+    position: relative;
+    left: 60px;
+    text-align: center;
+    font-weight:900;
+    color: white;
+    border: 1px solid #f1f1f1;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.Subbtn{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;  
+}
+
+.Subbtn2{
+    width: 10%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #00d8ff;
+    cursor: pointer;
+    font-weight:900;
+}
+
+
+                                                               /*FOOTER*/
+
+
+.Footer{
+    width: 100%;
+    height: 400px;
+}
+
+.Footer1{
+    width: 100%;
+    height: 400px;
+    margin-top: 35px;
+}
+
+.textlogo{
+    width: 22%;
+    height: 80%;
+    margin-top: 30px;
+    float: left;
+    margin-left: 23px;
+    text-align: center;
+}
+
+.textlogo span{
+    color:red;
+}
+
+.textlogo h3{
+    margin-top: 120px;    
+}
+
+.textlogo h3{
+    margin-top: 130px;    
+}
+
+.link{
+    width: 22%;
+    height: 80%;
+    margin-top: 30px;
+    float: left;
+    margin-left: 1cm;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link ul{
+    margin-top: 50px;
+}
+
+.link ul li{
+    margin-top: 25px;
+    
+
+}
+
+.link ul li a{
+    text-decoration: none;
+
+}
+
+.link ul li a:hover{
+    transform: scaleX(1.2);
+    color: #00d8ff;
+
+}
+    
+.popularD{
+    width: 22%;
+    height: 80%;
+    margin-top: 30px;
+    float: left;
+    margin-left: 1cm;
+    text-align: center;
+}
+
+.popularD h4{
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+
+.contact{
+    width: 22%;
+    height: 80%;
+    margin-top: 30px;
+    float: right;
+    margin-right: 23px;
+    text-align: center;
+
+}
+
+.contact h4{
+    margin-top: 80px;
+
+}
+

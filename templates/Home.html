@@ -1,0 +1,150 @@
+<!Doctype html>
+
+<html>
+
+{% include "Header.html" %}
+
+    <head>
+
+        <title> Home Page </title>
+
+    </head>
+
+    <script>
+        function tour_btn()
+        {
+            document.getElementById("Tour_access").innerHTML;
+        }
+
+    </script>
+
+    <body>
+
+        <div class = "Home">
+
+            <div class = "Home_pic">
+
+                <h1>Explore the Beauty of the Beautiful World</h1>
+
+                <div class = "Home_book">
+                    
+                    <div class = "book_nav" id = "bookpage">
+
+                        <div class = "book_nav_btn">
+                            <button id = "book_btn" onclick = "tour_btn()">TOURS</button> 
+                            <button id = "book_btn1" onclick = "hotal()">HOTELS</button>
+                            <button id = "book_btn2" onclick = "flight_btn()">FLIGHT</button>
+                        </div>
+
+                        <div id = "Tour_access">
+                            <div class = "tour_destination">
+                                <form>
+                                    <h2>Destination</h2>
+
+                                    <br>
+                                    <input type = "text" id = "search1" placeholder = "Enter the Destination country" required >
+
+                                    <input type = "text" id = "search" placeholder = "Enter the Destination Location" required >
+                                </form>
+                            </div>
+                            
+                            <div class = "tour_details">
+
+                                <form>
+
+                                    <div class = "tour_d1">
+                                        <h2>Check In</h2>
+                                        <input type = "date" id = "checkD" required> 
+                                    </div>
+
+                                    <div class = "tour_d2">
+                                        <h2>Check Out</h2>
+                                        <input type = "date" id = "checkD1" required> 
+                                    </div>
+
+                                    <div class = "tour_d3">
+                                        <h2>Duration</h2>
+                                        <input type = "Number" id = "duration" required>
+                                    </div>  
+                                    
+                                    <div class = "tour_d4"> 
+                                        <h2>Members</h2>
+                                        <input type = "Number" id = "members" required>
+                                    </div>
+
+                                    <div class = "tour_btn">
+                                        <input type = "submit" id = "tourbtn" value = "Search">
+                                        
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+    
+        </div>
+
+
+        <div class = "Service">
+
+            <div class = "Service1">
+
+                <div class = "info">
+                    <img src = "../static/img/info.png" alt = "info">
+                    <h3>Amazing Tour Packages</h3>
+                    <h5>Affordable price for visit places</h5>
+
+                </div>
+
+                <div class = "hotel">
+                    <img src = "../static/img/info2.png" alt = "info">
+                    <h3>Book Top Class Hotel</h3>
+                    <h5>Best place to book Hotel ticket</h5>
+                </div>
+
+                <div class = "flight">
+                    <img src = "../static/img/flight.png" alt = "info">
+                    <h3>Online Flight Booking</h3>
+                    <h5>Best place to book Flight ticket</h5>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class = "subscribe">
+            <div class = subscribe1>
+                <h1>Join Our Subscribers List To Get Regular Update</h1>
+                <br>
+                <p>Subscribe Now. We will send you Best offer for your Trip</p>
+
+                <br>
+                <br>
+               
+                <form>
+                    
+                    <input type = "email" class = "Subbtn" placeholder = "Enter your Email here"/>
+                    
+                    <input type = "submit" class = "Subbtn2" value = "SUBSCRIBE" />
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+    <script>
+
+    </script>
+
+</html>
+{% include "Footer.html" %}
